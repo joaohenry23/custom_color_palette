@@ -8,8 +8,7 @@ Python script to create a custom colors palette.
 # Usage
 Let us suppose you have this satellite image of brightnes temperature (in Kelvin) and you want view it with a custom color palette.
 
-![](Images/example00.png)
-
+![](images/example00.png)
 
 An easy way to do this is by using the **custom_color_palette** package. Take a look at the following examples.\
 \
@@ -45,7 +44,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example01.png)
+![](images/example01.png)
 \
 \
 You can also use the matplotlib's colors palette defined [here](https://matplotlib.org/tutorials/colors/colormaps.html) and custom it.
@@ -62,7 +61,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example02.png)
+![](images/example02.png)
 \
 \
 On the other hand, if you want to merge your custom color palette with the Matplotlib's color palette, you can do it as follows.
@@ -79,7 +78,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example03.png)
+![](images/example03.png)
 \
 \
 In addition to that, if you want your palette to have colors that do not change its tone, you can do it by adding sublists with the name of the color you want, as shown below.
@@ -96,7 +95,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example04.png)
+![](images/example04.png)
 \
 \
 In the case you want to change the spacing between the colors, you can do it using **Increase** parameter. This parameter is optional and its default value is 1.0. The nexts lines show an example where add Increase=[1.0, 1.0, 5.0 5.0] in **creates_palette** with purpose of set the colors of each palette. In this example the spacing of the first colors palette is equal to 1, meanwhile the spacing of the last colors palette is equal to 5 (pay attention to colors bar).
@@ -115,7 +114,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example05.png)
+![](images/example05.png)
 \
 \
 \
@@ -140,7 +139,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example07.png)
+![](images/example07.png)
 \
 \
 This result is not bad, however the problem whit this is that the grey color palette was compacted, so we see colors with white tonalities above 240.0 K.
@@ -159,7 +158,7 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example08.png)
+![](images/example08.png)
 \
 \
 Finally, if you wish, you could add **Increase** and use all the **creates_palette** parameters and create an image like the following (pay attention to grey's colors of bar):
@@ -176,9 +175,8 @@ cbar.ax.set_yticklabels(tickslabels)
 plt.show()
 
 ```
-![](Images/example09.png)
-\
-\
+![](images/example09.png)
+
 Or if you want:
 ```
 mypalette, colorslabels = ccpl.creates_palette([['maroon', 'red', 'darkorange', '#ffff00', 'forestgreen', 'cyan', 'royalblue', (148/255, 0/255, 211/255)], plt.cm.Greys], [180.0,240.0,330.0], EditPalette=[None,[180.0,330.0,240.0,330.0]], Increase=[5.0,5.0])
@@ -194,9 +192,9 @@ plt.savefig('example10.png')
 plt.show()
 
 ```
-![](Images/example10.png)
- 
- 
+![](images/example10.png)
+
+
 # Installation
 You can install **custom_color_palette** on Python 2 or 3 on Linux, Windows or other, using the following commands.
 \
@@ -207,7 +205,6 @@ pip install custom-color-palette
 
 ```
 \
-\
 From github with clone.
 ```
 clone https://github.com/joaohenry23/custom_color_palette.git
@@ -216,7 +213,6 @@ python setup.py install
 
 ```
 \
-\
 Or also from github downloading **custom_color_palette.zip** and following the next commands.
 ```
 unzip custom_color_palette.zip
@@ -224,13 +220,10 @@ cd custom_color_palette
 python setup.py install
 
 ```
-\
-\
+
 # Support
 If you have any questions, do not hesitate to write to:
 ```
 joaohenry23@gmail.com
 
 ```
- 
- 
