@@ -213,10 +213,10 @@ python setup.py install
 
 ```
 \
-Or also from github downloading **custom_color_palette.zip** and following the next commands.
+Or also from github downloading **custom_color_palette-master.zip** and following the next commands.
 ```
-unzip custom_color_palette.zip
-cd custom_color_palette
+unzip custom_color_palette-master.zip
+cd custom_color_palette-master
 python setup.py install
 
 ```
