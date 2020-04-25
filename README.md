@@ -1,13 +1,15 @@
 # custom_colors_palette
 Python script to create a custom colors palette.
+<br><br>
 
 # Requirements
 - Numpy
 - Matplotlib
+<br><br>
 
 # Usage
 See the next jupyter notebook [examples](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/examples.ipynb).
-
+<br><br>
 
 # Installation
 You can install **custom_color_palette** on Python 2 or 3 on Linux, Windows or other, using the following commands.
@@ -34,6 +36,21 @@ cd custom_color_palette-master
 python setup.py install
 
 ```
+<br>
+
+**Check if package was installed**
+
+```
+pip show custom-color-palette
+```
+<br>
+
+**Update to the latest version**
+
+```
+pip install --upgrade custom-color-palette
+```
+<br><br>
 
 # Support
 If you have any questions, do not hesitate to write to:
