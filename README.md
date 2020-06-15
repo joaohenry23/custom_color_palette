@@ -3,7 +3,7 @@ Python script to create a custom colors palette.
 <br><br>
 
 # latest version
-0.0.1.5
+0.1.1
 <br><br>
 
 # Requirements
