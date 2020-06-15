@@ -12,7 +12,9 @@ Python script to create a custom colors palette.
 <br><br>
 
 # Usage
-See the next jupyter notebook [examples](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/examples.ipynb).
+See the next jupyter notebooks:
+- [basics examples](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/examples01.ipynb)
+- [advanced examples](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/examples02.ipynb)
 <br><br>
 
 # Installation
