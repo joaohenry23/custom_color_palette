@@ -128,8 +128,7 @@ Click on the item to see the function and their description.
 
 # Installation
 You can install **custom_color_palette** on Python 2 or 3 on Linux, Windows or other, using the following commands.
-\
-\
+<br><br>
 **Using PIP**:
 ```
 pip install custom-color-palette
@@ -167,7 +166,7 @@ cd custom_color_palette-master
 python setup.py install
 
 ```
-<br>
+<br><br>
 
 # Support
 If you have any questions, do not hesitate to write to:
