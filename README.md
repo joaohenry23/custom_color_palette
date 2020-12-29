@@ -1,5 +1,5 @@
 # custom_colors_palette
-Python package to create a custom color palette using Matplotlib's colors name, Matplotlib's Colormap, Hex color code or RGB color code.
+Python package to create a custom color palette.
 <br><br>
 
 # Version
