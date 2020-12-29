@@ -131,40 +131,42 @@ Click on the item to see the function and their description.
 You can install **custom_color_palette** on Python 2 or 3 on Linux, Windows or other, using the following commands.
 \
 \
-Using PIP:
+**Using PIP**:
 ```
 pip install custom-color-palette
 
 ```
-\
-From github with clone.
-```
-clone https://github.com/joaohenry23/custom_color_palette.git
-cd custom_color_palette
-python setup.py install
 
-```
-\
-Or also from github downloading **custom_color_palette-master.zip** and following the next commands.
-```
-unzip custom_color_palette-master.zip
-cd custom_color_palette-master
-python setup.py install
-
-```
-<br>
-
-**Check if package was installed**
+Check if package was installed
 
 ```
 pip show custom-color-palette
 ```
 <br>
 
-**Update to the latest version**
+If you already have the package installed, update it to the latest version with:
 
 ```
 pip install --upgrade custom-color-palette
+```
+<br>
+
+**Using clone**:
+```
+clone https://github.com/joaohenry23/custom_color_palette.git
+cd custom_color_palette
+python setup.py install
+
+```
+<br>
+
+**from github**:
+Download **custom_color_palette-master.zip** from github and following the next commands.
+```
+unzip custom_color_palette-master.zip
+cd custom_color_palette-master
+python setup.py install
+
 ```
 <br><br>
 
