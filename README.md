@@ -3,7 +3,7 @@ Python package to create a custom color palette using Matplotlib's colors name, 
 <br><br>
 
 # Version
-0.2.1
+0.2.2
 <br><br>
 
 # Requirements
@@ -13,7 +13,7 @@ Python package to create a custom color palette using Matplotlib's colors name, 
 
 # Usage
 See the jupyter notebooks examples for the last version:
-- [v0.2.1](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/tutorial_v0.2.1.ipynb)
+- [v0.2.2](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/tutorial_v0.2.2.ipynb)
 
 Examples for older version can be found [here](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/)
 <br><br>
@@ -167,7 +167,7 @@ cd custom_color_palette-master
 python setup.py install
 
 ```
-<br><br>
+<br>
 
 # Support
 If you have any questions, do not hesitate to write to:
@@ -175,4 +175,3 @@ If you have any questions, do not hesitate to write to:
 joaohenry23@gmail.com
 
 ```
-
