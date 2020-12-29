@@ -12,11 +12,10 @@ Python package to create a custom color palette using Matplotlib's colors name, 
 <br><br>
 
 # Usage
-See the jupyter notebooks for the last version:
+See the jupyter notebooks examples for the last version:
 - [v0.2.1](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/tutorial_v0.2.1.ipynb)
 
-Old version:
-- [v0.1.1](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/tutorial_v0.1.1.ipynb)
+Examples for older version can be found [here](https://github.com/joaohenry23/custom_color_palette/blob/master/examples/)
 <br><br>
 
 # Reference Guide
@@ -137,7 +136,7 @@ pip install custom-color-palette
 
 ```
 
-Check if package was installed
+Check if package was installed with:
 
 ```
 pip show custom-color-palette
@@ -160,8 +159,8 @@ python setup.py install
 ```
 <br>
 
-**from github**:
-Download **custom_color_palette-master.zip** from github and following the next commands.
+**Using python**:\
+Download **custom_color_palette-master.zip** from github and following the next commands:
 ```
 unzip custom_color_palette-master.zip
 cd custom_color_palette-master
